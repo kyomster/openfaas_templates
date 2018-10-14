@@ -1,0 +1,7 @@
+docker tag <function_name>:<version> <docker_namespace>/< function_name >:<version>
+docker push <docker_namespace>/< function_name >:<version>
+faas deploy --image <docker_namespace>/< function_name >:<version> -name < function_name >
+
+https://github.com/openfaas/faas-cli/issues/417#issuecomment-425830395
+
+Dans la doc, dire qu'il faut utiliser le vagrant: https://github.com/evoio/openfaas-sandbox

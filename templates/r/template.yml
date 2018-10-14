@@ -1,0 +1,2 @@
+language: r
+fprocess: Rscript handler.R
